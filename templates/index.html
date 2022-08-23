@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+         
+            /* We are stopping user from
+            printing our webpage */
+            @media print {
+     
+                html,
+                body {
+     
+                    /* Hide the whole page */
+                    display: none;
+                }
+            }
+        </style>
+        
+        <script>
+            alert("Do not take screenshot of this page");
+        </script>
+    </head>
+    
     <body bgcolor=#d4a3ae>
 
     <center>
